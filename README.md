@@ -4,7 +4,7 @@
 ##
 #######################################################
 
-<#
+
 .SYNOPSIS
 Starts a physical machines by using WOL "Magic Packet"
  
@@ -34,7 +34,7 @@ None
 Mac address must be supplied in format 00:11:22:33:44:55 or 00-11-22-33-44-55
 
 Must be on AD domain and be AD admin
-#>
+
 
 
 
