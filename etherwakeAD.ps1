@@ -102,7 +102,7 @@ function Send-MagicPacket($MagicPacket){ #Send WOL packet
 
 $ha = $null
 if($(Id_type) -eq "hostname"){ #if HostID is a hostname find MAC
-    $l = Get-leases-all
+    $l = Get-leases
     $ha = Get-HardwareAddress -Leases $l -ComputerName $HostID
 }
 else {$ha = $HostID}
